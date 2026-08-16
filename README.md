@@ -1,12 +1,12 @@
 # Corvid Pkgbuilds
 
-PKGBUILDy i konfiguracja własnego repozytorium pakietów **Corvid OS**
-(wzorem Chaotic-AUR / CachyOS repo). Prefiks pakietów: `corvid-*`.
+PKGBUILDs and configuration for Corvid OS's own package repo (in the spirit
+of Chaotic-AUR or the CachyOS repo). Package prefix: `corvid-*`.
 
-## TBD
-- Czy i jak hostujemy repo (własny serwer / GitHub Releases + `repo-add` / coś innego)
-- Co dokładnie tu siedzi: prebuild AUR, patche gamingowe, własne pakiety (`corvid-installer`, `corvid-themes`)
-- Automatyczne budowanie paczek (CI)
+Still open: how the repo gets hosted (a dedicated server, GitHub Releases
+plus `repo-add`, something else), exactly what lives here (prebuilt AUR
+packages, gaming patches, our own packages like `corvid-installer` and
+`corvid-gnome-config`), and setting up CI to build packages automatically.
 
-Pełny design projektu: [`corvid-os/corvid`](https://github.com/corvid-os/corvid)
-(patrz `prompt-el/design.md`).
+Full design: private repo `corvid-os/prompt-el` (`design.md`, under Package
+management).
